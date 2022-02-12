@@ -1,0 +1,93 @@
+body {
+  background-image: url("./image/image1.webp");
+  margin: 0px;
+  padding: 0%;
+
+  height: 110vh;
+}
+header {
+  color: white;
+  position: sticky;
+  padding: 20px;
+  border: 1px solid white;
+  position: sticky;
+  top: 0px;
+  font-family: "Oswald", sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  width: 150px;
+  font-size: large;
+}
+.navBox {
+  display: inline-block;
+
+  width: 600px;
+  position: absolute;
+  right: 20px;
+}
+.navBox > a {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+#home {
+  color: salmon;
+}
+
+.navBox > a:hover {
+  color: salmon;
+  transition: 3s;
+}
+
+.paragraph {
+  color: salmon;
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  width: 50px;
+}
+
+.paragraph + h3 {
+  color: salmon;
+  position: relative;
+
+  left: 80px;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  width: 30%;
+}
+.paragraph + h3 + p {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  width: 60%;
+  left: 80px;
+  font-style: italic;
+}
+button {
+  background-color: salmon;
+  padding: 15px;
+  position: relative;
+  left: 80px;
+  color: rgb(240, 234, 234);
+  font-weight: 900px;
+  font-size: medium;
+  color: black;
+}
+button:hover {
+  background-color: rgba(164, 184, 201, 0);
+  color: white;
+}
+
+footer {
+  color: white;
+  position: block;
+  bottom: 0px;
+  position: fixed;
+  left: 50%;
+}

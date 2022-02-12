@@ -38,7 +38,7 @@ header {
 
 .navBox > a:hover {
   color: salmon;
-  transition: 3s;
+  transition: all 0.8s;
 }
 
 .paragraph {
@@ -82,14 +82,16 @@ button {
 button:hover {
   background-color: rgba(164, 184, 201, 0);
   color: white;
+  transition: all 0.8s;
 }
 
 footer {
-  color: white;
+  color: whitesmoke;
   position: block;
-  bottom: 0px;
+  bottom: 5px;
   position: fixed;
   left: 50%;
+  font-size: 20px;
 }
 .menu {
   visibility: hidden;
